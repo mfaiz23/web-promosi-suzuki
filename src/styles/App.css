@@ -1,0 +1,65 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info div {
+            margin-bottom: 10px;
+        }
+        .cta-section {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cta-section a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .cta-section .btn {
+            margin: 10px;
+        }
+        .btn-red {
+            background-color: #ff0000;
+            border: none;
+        }
+        .btn-green {
+            background-color: #28a745;
+            border: none;
+        }
+        .list-group-item {
+            border: none;
+            padding-left: 0;
+        }
+      
+
+
+/* Sticky Navbar */
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+
+/* Dropdown Menu Behavior */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/* Styling Dropdown */
+.dropdown-menu {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
